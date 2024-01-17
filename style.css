@@ -502,3 +502,8 @@ span {
      margin-left: 0;
    }
   }
+
+  .reserved p{
+    color: rgb(104, 104, 104);
+    text-align: center;
+  }
