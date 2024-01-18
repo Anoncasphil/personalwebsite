@@ -1,10 +1,8 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const portfolioBoxes = document.querySelectorAll('.portfolio-box');
+document.addEventListener("DOMContentLoaded", function () {
+    const menuIcon = document.getElementById("menu-icon");
+    const navigationBar = document.querySelector(".navigationbar");
 
-    portfolioBoxes.forEach(box => {
-        box.addEventListener('click', function() {
-            const imageContainer = this.querySelector('.image-container');
-            imageContainer.classList.add('clicked');
-        });
+    menuIcon.addEventListener("click", function () {
+        navigationBar.classList.toggle("show");
     });
 });
