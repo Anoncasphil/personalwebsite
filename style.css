@@ -258,6 +258,7 @@ span {
     background-color: var(--bg-color);
     gap: 40px;
     background-clip: content-box;
+    overflow-x: hidden;
 }
 
 .skills h2 {
