@@ -90,11 +90,11 @@ section {
 
 .home {
     background: url('images/home.png') no-repeat center center fixed;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     display: flex;
     align-items: center;
-}
+}   
 
 .home-content {
     margin-right: 500px;
@@ -525,6 +525,13 @@ span {
         padding: 2rem 4%;
     }
 
+    .home {
+        display: absolute;
+        width: auto;
+        background: none;
+        overflow-x: hidden;
+    }
+
     .navigationbar {
         display: none;
         flex-direction: rows;
@@ -557,6 +564,7 @@ span {
         display: block;
         cursor: pointer;
     }
+
 
     .home-content h1 {
 
